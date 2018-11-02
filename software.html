@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head Start -->
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="newstyle.css">
+<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="stylish.css">
+
+<link rel="stylesheet" href="bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  /* Main menu settings */
+ .sidenav {
+    height: 55%;
+    width: 0;
+    
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #54608e;
+    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba($black,0.4);
+    
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ededed;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #919191;
+    background-color: #232e56;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    
+    
+    
+}
+ 
+  
+ </style>
+  
+</head>  <!-- head close -->
+  
+<title>Emmanuel Kidando</title>
+  
+  <body>
+
+ <div id="mySidenav" class="sidenav">
+  <!--<a> MENU </a>-->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html" >About me</a>
+  <a href="research.html" >Research projects</a>
+  <a href="experience.html" >Experience</a>
+  <a href="publictn.html" >Publications</a>
+  <a href="publication.html">Data visualization</a>
+  <a href="publictn.html">Software development</a>
+  <a href="File/Kidando_CV2.pdf"  target="_blank" >Download CV</a>
+</div>
+
+<div id="main">
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+ </div>
+     
+ 		
+<section id="research-page">
+  <div class="container">
+    <div class="row">
+        <div class="block">
+	
+          <h2 class="animated fadeInUp">Software Development </h2>
+          <hr style="height:5px; border:none; color:#e2e2e2; background-color:#e2e2e2;">
+         <p class="animated fadeInUp"> Traffic Operations, Traffic Safety, Data Collection, and Connected Vehicle Data Analytics</p>
+          
+          
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<!--Project 1 -->
+<section id="intro" class="selectColorr selectedColortxt">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+      <h1>Traffic Operation Analysis - HCM-6</h1>
+      </div></div>
+       <div class="col-md-12">
+        <div class="block">
+          <br>         
+          <img src="images/HCM-1.png">
+          <img src="images/HCM-2.png">
+          <br> <br>
+          <div class="col-md-4 col-xs-push-5">
+          <a href="https://blos-two-lane.herokuapp.com/"
+             class="btn btn-default" target="_blank" role="button">LEARN MORE</a>
+            </div>
+
+      </div>
+      </div><!-- .col-md-7 close -->
+      </div>
+  </div>
+</section>  
+ 
+<!-- Project 2 -->
+<section id="resercpro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+      <h2>Traffic Safety Analysis</h2>
+      </div></div>
+       <div class="col-md-7">
+        <div class="block">
+         <br> <br>
+         <a href="https://blos-two-lane.herokuapp.com/"
+             class="btn btn-default" target="_blank" disabled="disabled" role="button">LEARN MORE</a>
+ 
+        </div>
+      </div><!-- .col-md-7 close -->
+      </div>
+  </div>
+</section>  
+ 
+   <!-- Contacts -->
+<section id="call-to-action">
+
+    <div class="row">
+      
+    <div class="col-md-12">
+        <div class="block">
+          <h2>Idea, Comments, Questions or Just Want to Chat?</h2>
+
+          <a class="btn btn-default btn-call-to-action" href="contacts.html" >Contacts</a>
+
+      </div>
+    </div>
+  </div>
+</section>    
+    
+    
+   <!-- Portfolio Start -->
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-xs-push-2">
+            <div class="block">
+          
+        <a href="index.html" class="btn btn-default btn-lg" role="button">About me</a>
+        <a href="research.html" class="btn btn-default btn-lg" role="button">Research Projects</a>
+        <a href="experience.html" class="btn btn-default btn-lg" role="button">Experience</a>
+        <a href="publictn.html" class="btn btn-default btn-lg" role="button">Publications</a>
+        <a href="software.html" class="btn btn-default btn-lg" role="button">Software Development</a>      
+        <a href="software.html" class="btn btn-default btn-lg" role="button">Data visualization</a>
+		<a href="File/Kidando_CV2.pdf" class="btn btn-default btn-lg" role="button">Download CV</a> 
+             
+                </div>
+              </div>
+            </div>
+          </div>
+
+</section>
+  
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>    
+    
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+  </body>
+    
+<!-- Custom Theme JavaScript -->
+<script src="js/custom.js"></script>     
+    
+  
+ 
+</html>
