@@ -6,7 +6,7 @@
   image: img/slide_show/slide_5.jpg
 - name: Bayesian Data Analystics
   image: img/slide_show/slide_6.jpg
-- name: Pedestirans Crash Density
+- name: Pedestrian Crash Density
   image: img/slide_show/slide_7.jpg
 - name: Crash Severity vs Congestion
   image: img/slide_show/slide_8.jpg
