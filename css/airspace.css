@@ -179,6 +179,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   color: #7B7B7B;
   padding-top: 20px;
+  font-size: 23px;
 }
 #intro .block img {
   padding-left: 40px;
