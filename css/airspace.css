@@ -170,11 +170,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #intro .block h2 {
+  font-family: 'Roboto', sans-serif;
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
+  font-family: 'Roboto', sans-serif;
   color: #7B7B7B;
   padding-top: 20px;
 }
@@ -186,6 +188,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 0px;
 }
 #intro .section-title p {
+  font-family: 'Roboto', sans-serif;
   padding-top: 20px;
 }
 
