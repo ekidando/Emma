@@ -99,7 +99,7 @@ font header .navbar-default .navbar-nav li a:hover {
     height: 300px; */
     height: 350px;
     width: 350px;
-    padding: 10px;
+    object-fit: cover;
     opacity: 0.7;
   /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
@@ -114,37 +114,6 @@ font header .navbar-default .navbar-nav li a:hover {
    -o-border-radius: 70%;
 }
 
-.circle-img {
-  width: 250px;
-  height: 150px;
-  overflow: hidden;
-}
-.circle-img img {
-  height: 100%;
-  transform: translateX(-50%);
-  margin-left: 50%;
-}
-
-.thumbnail {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-}
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
-.thumbnail img.portrait {
-  width: 100%;
-  height: auto;
-}
 
 /*---------------------------------------------
 					Index Start
