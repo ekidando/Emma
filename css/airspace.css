@@ -188,6 +188,66 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+
+.paColorr{
+    background-color: #5c5c5e;
+}
+
+#introo {
+  padding: 50px 0px;
+    
+}
+
+.selectColorg{
+    background-color: #d4d4d8;
+}
+.selectedColorr{
+    background-color: #5c5c5e;
+}
+
+#introo .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+
+
+.selectColortxt{
+    color: #424244;
+}
+.selectedColortx{
+    color: #f9f9f9;
+}
+#introo .block p {
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+#introo .block a {
+  color: #45839b;
+ 
+}
+
+
+#introo .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#introo .section-title {
+  margin-bottom: 0px;
+}
+#introo .section-title p {
+  padding-top: 20px;
+  }
+
+#introo .block ul {
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+
+
 /*--
 	service Start
 --*/
