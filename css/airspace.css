@@ -406,9 +406,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel p {
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 600;
   padding-bottom: 10px;
-  font-size: 35px;
+  font-size: 40px;
 }
 #testimonial .testimonial-carousel .user img {
   padding-bottom: 0px;
