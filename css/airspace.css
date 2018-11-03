@@ -95,8 +95,8 @@ font header .navbar-default .navbar-nav li a:hover {
 .avatar {
     vertical-align: middle;
    /* make a square container */
-    width: 80%;
-    height: 80%;
+    width: 300px;
+    height: 300px%;
   /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
 
@@ -150,14 +150,14 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: bold;
 }
 #slider .block h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   }
 #slider .block p {
-  font-size: 25px;
+  font-size: 35px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
