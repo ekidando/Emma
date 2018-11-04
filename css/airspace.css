@@ -117,7 +117,7 @@ font header .navbar-default .navbar-nav li a:hover {
  -moz-border-radius: 100px;
 }
 
-
+.centered-and-cropped { object-fit: cover }
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
