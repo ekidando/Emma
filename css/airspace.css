@@ -106,24 +106,16 @@ font header .navbar-default .navbar-nav li a:hover {
     opacity: 0.7;
 }
 
-.image-cropper {
-    max-width: 400px;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+#image1{
+    background-image: url("../img/1.jpg");
 }
-.rounded {
-    display: block;
-    margin: 0 auto;
-    height: 400px;
-    width: 400px;
-    -webkit-border-radius: 200%;
-    -moz-border-radius: 200%;
-    -ms-border-radius: 200%;
-    -o-border-radius: 200%;
-    border-radius: 200%;
-    
-    background-size:cover;
+
+.cropcircle{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
 }
 
 /*---------------------------------------------
