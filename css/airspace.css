@@ -106,9 +106,15 @@ font header .navbar-default .navbar-nav li a:hover {
     opacity: 0.7;
 }
 
-#image1{
-    background: url("../img/2-2.jpg") no-repeat;
-    background-size: cover;
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url("../img/1.jpg") no-repeat;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
 }
 
 
