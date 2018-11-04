@@ -97,10 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
    /* make a square container */
    /* width: 300px;
     height: 300px; */
-    height: 350px;
-    width: 350px;
-    padding: 10px;
-    opacity: 0.7;
+   
   /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
 
