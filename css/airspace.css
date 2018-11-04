@@ -91,7 +91,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
-
+.img-circle {
+    border-radius: 50%;
+}
 .avatar {
     vertical-align: middle;
    /* make a square container */
