@@ -7,8 +7,9 @@
   </head>
   <body>
 
-
+    {% if !TSMO %}
     {% include header.html %}
+    {% endif %}
 
 
     {{ content }}
