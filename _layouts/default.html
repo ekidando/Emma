@@ -7,9 +7,11 @@
   </head>
   <body>
 
-    {% if !TSMO %}
+    {% for my_page in site.pages %}
+    {% if my_page.title != TSMO %}
     {% include header.html %}
     {% endif %}
+    {% endfor %}
 
 
     {{ content }}
