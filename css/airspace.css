@@ -99,10 +99,10 @@ font header .navbar-default .navbar-nav li a:hover {
     height: 300px; */
     height: 350px;
     width: 350px;
-    object-fit: cover;
+    padding: 10px;
     opacity: 0.7;
   /* fill the container, preserving aspect ratio, and cropping to fit */
-   
+    background-size: cover;
 
     /* center the image vertically and horizontally */
     background-position: top center;
@@ -113,6 +113,8 @@ font header .navbar-default .navbar-nav li a:hover {
    -webkit-border-radius: 70%;
    -o-border-radius: 70%;
 }
+
+
 
 
 /*---------------------------------------------
