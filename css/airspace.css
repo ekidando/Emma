@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #image1{
-    background-image: url("../img/1.jpg");
+    background: url("../img/2-2.jpg") no-repeat;
 }
 
 .cropcircle{
