@@ -110,7 +110,15 @@ font header .navbar-default .navbar-nav li a:hover {
     opacity: 0.7;
 }
 
-
+.circular-image img {
+               width: 300px;
+               height: 300px;
+               -webkit-border-radius: 150px;
+               -moz-border-radius: 150px;
+               -ms-border-radius: 150px;
+               -o-border-radius: 150px;
+border-radius: 150px;
+                              }
 
 /*---------------------------------------------
 					Index Start
