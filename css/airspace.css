@@ -93,6 +93,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 .img-circle {
     border-radius: 50%;
+    opacity: 0.7;
 }
 .avatar {
     vertical-align: middle;
