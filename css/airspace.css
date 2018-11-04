@@ -95,9 +95,8 @@ font header .navbar-default .navbar-nav li a:hover {
 .avatar {
     vertical-align: middle;
    /* make a square container */
-   /* width: 300px;
-    height: 300px; */
-   
+    width: 50px;
+    height: 350px;
   /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
 
@@ -106,11 +105,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 70%;
-   -moz-border-radius: 70%;
-   -webkit-border-radius: 70%;
-   -o-border-radius: 70%;
 }
-
 
 
 
