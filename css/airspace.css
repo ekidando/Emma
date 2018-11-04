@@ -108,14 +108,26 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #image1{
     background: url("../img/2-2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#image1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  opacity: 0.8;
 }
 
 .cropcircle{
-    width: 400px;
-    height: 400px;
+   /*-- width: 400px;
+    height: 400px;--*/
     border-radius: 200%;
-    background: #eee no-repeat center;
-    background-size: cover;
+    background: #eee;
+    
 }
 
 /*---------------------------------------------
