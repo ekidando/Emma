@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .image-cropper {
-    max-width: 100px;
+    max-width: 400px;
     height: auto;
     position: relative;
     overflow: hidden;
@@ -115,13 +115,13 @@ font header .navbar-default .navbar-nav li a:hover {
 .rounded {
     display: block;
     margin: 0 auto;
-    height: 100px;
-    width: 100px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    -webkit-border-radius: 200%;
+    -moz-border-radius: 200%;
+    -ms-border-radius: 200%;
+    -o-border-radius: 200%;
+    border-radius: 200%;
     
     background-size:cover;
 }
