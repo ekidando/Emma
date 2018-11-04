@@ -136,16 +136,17 @@ font header .navbar-default .navbar-nav li a:hover {
   
 }
 #resercpro .block h2 {
+  font-family: 'Roboto', sans-serif;
   padding-top: 35px;
   line-height: 27px;
-  color: #383737;
   margin: 0;
+  padding-top: 20px;
 }
 #resercpro .block p {
-  color: #383737;
+  color: #7B7B7B;
   padding-top: 20px;
   font-size: 23px;
-  font-family: 'Volkhov', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #resercpro .block a {
@@ -156,29 +157,16 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #resercpro .block img {
   padding-left: 40px;
-  width: 100%;
+ 
 }
 #resercpro .section-title {
   margin-bottom: 0px;
 }
 #resercpro .section-title p {
   padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
   }
 
-#resercpro .block ul {
-  padding-top: 20px;
-  font-size: 23px;
-  color: #383737;
-}
-
-#resercpro .block li {
-  
-  font-size: 23px;
-  color: #383737;
-}
-
-#resercpro .block a {
-  color: #45839b;
  
 }
 
