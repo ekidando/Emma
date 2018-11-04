@@ -91,32 +91,6 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
-.avatar {
-    vertical-align: middle;
-   /* make a square container */
-   
-  /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 70%;
-    opacity: 0.7;
-}
-
-.img-circular{
- width: 200px;
- height: 200px;
- background-image: url("../img/1.jpg") no-repeat;
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-}
-
 .centered-and-cropped { 
   
   /* fill the container, preserving aspect ratio, and cropping to fit */
@@ -127,48 +101,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-/*--
-	Research project block
---*/
-#resercpro {
-  padding: 50px 0px;
-  background-color: #c6c6c6;
-  
-}
-#resercpro .block h2 {
-  font-family: 'Roboto', sans-serif;
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-  padding-top: 20px;
-}
-#resercpro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
-  font-size: 23px;
-  font-family: 'Roboto', sans-serif;
-}
-
-#resercpro .block a {
-  color: #383737;
- 
-}
-
-
-#resercpro .block img {
-  padding-left: 40px;
- 
-}
-#resercpro .section-title {
-  margin-bottom: 0px;
-}
-#resercpro .section-title p {
-  padding-top: 20px;
-  font-family: 'Roboto', sans-serif;
-  }
-
- 
-}
 
 
 /*---------------------------------------------
