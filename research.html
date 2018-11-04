@@ -13,7 +13,7 @@ published: true
                 <div class="block">
                     <h1>Research Projects</h1>
                    <hr style="height:5px; border:none; color:#e2e2e2; background-color:#e2e2e2;">
-                    <p class="animated fadeInUp"> Traffic Safety, Operations, Data Collection and Modeling.</p>
+                    <p class="animated fadeInUp"> Traffic Operations, Safety, Data Collection and Modeling.</p>
                 </div>
             </div>
         </div>
@@ -25,9 +25,8 @@ published: true
   <div class="container">
     <div class="row">
       <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-      </div>
+        <h2>Research Projects Summary</h2>
+    </div>
     </div>
     <div class="row">
       <div class="col-md-6">
@@ -47,25 +46,7 @@ published: true
         </div>
         {% endif %}
       </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
       </div>
-    </div>
   </div>
 </section>
 
