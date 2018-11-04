@@ -1,12 +1,12 @@
-- counter: 20000
+- counter: 4
   icon: ion-ios-chatboxes-outline
-  text: Cups of Coffee
-- counter: 1500
+  text: Traffic Operation Projects
+- counter: 3
   icon: ion-ios-glasses-outline
-  text: Gallons of Soft Drink
-- counter: 1200
+  text: Highway Safety
+- counter: 7
   icon: ion-ios-compose-outline
-  text: Whiteboard Markers
-- counter: 300
+  text:  Data Collection and Analytics
+- counter: 10
   icon: ion-ios-timer-outline
-  text: Websites built
+  text: Total Reserch Projects Engaged
