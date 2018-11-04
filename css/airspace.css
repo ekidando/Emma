@@ -125,6 +125,64 @@ font header .navbar-default .navbar-nav li a:hover {
    /* make a square container */
     
 }
+
+
+/*--
+	Research project block
+--*/
+#resercpro {
+  padding: 50px 0px;
+  background-color: #c6c6c6;
+  
+}
+#resercpro .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  color: #383737;
+  margin: 0;
+}
+#resercpro .block p {
+  color: #383737;
+  padding-top: 20px;
+  font-size: 23px;
+  font-family: 'Volkhov', serif;
+}
+
+#resercpro .block a {
+  color: #383737;
+ 
+}
+
+
+#resercpro .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#resercpro .section-title {
+  margin-bottom: 0px;
+}
+#resercpro .section-title p {
+  padding-top: 20px;
+  }
+
+#resercpro .block ul {
+  padding-top: 20px;
+  font-size: 23px;
+  color: #383737;
+}
+
+#resercpro .block li {
+  
+  font-size: 23px;
+  color: #383737;
+}
+
+#resercpro .block a {
+  color: #45839b;
+ 
+}
+
+
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
