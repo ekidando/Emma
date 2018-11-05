@@ -562,18 +562,19 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #global-header .block h1 {
-  font-weight: 300;
-  font-size: 45px;
-  letter-spacing: 6px;
+  
+  font-weight: 100;
+  font-size: 51px;
+  letter-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
 }
 #global-header .block p {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 26px;
+  font-weight:100;
   letter-spacing: 1px;
-  word-spacing: 3px;
+  word-spacing: 1px;
 }
 /*--
 	portfolio-work Start
