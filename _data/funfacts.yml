@@ -2,7 +2,7 @@
   image: img/slide_show/slide_4.jpg
   text: Traffic Operation Projects
 - counter: 3
-  icon: ion-ios-glasses-outline
+  image: img/slide_show/slide_3.jpg
   text: Highway Safety
 - counter: 7
   icon: ion-ios-compose-outline
