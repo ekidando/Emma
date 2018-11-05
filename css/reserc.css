@@ -1,0 +1,59 @@
+/*--
+	wrapper Start
+--*/
+
+.paColorr{
+    background-color: #5c5c5e;
+}
+
+#introresear {
+  padding: 50px 0px;
+    
+}
+
+.selectColorg{
+    background-color: #d4d4d8;
+}
+.selectedColorr{
+    background-color: #5c5c5e;
+}
+
+#introresear .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+
+
+.selectColortxt{
+    color: #424244;
+}
+.selectedColortx{
+    color: #f9f9f9;
+}
+#introresear .block p {
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+#introresear .block a {
+  color: #45839b;
+ 
+}
+
+
+#introresear .block img {
+  padding-left: 40px;
+  width: 100%;
+}
+#introresear .section-title {
+  margin-bottom: 0px;
+}
+#introresear .section-title p {
+  padding-top: 20px;
+  }
+
+#introresear .block ul {
+  padding-top: 20px;
+  font-size: 23px;
+}
