@@ -143,7 +143,7 @@ font header .navbar-default .navbar-nav li a:hover {
  
 }
 
-#Mainpage {
+#mainpag {
   background: url("../img/1.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -151,7 +151,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 200px 0 280px 0;
   position: relative;
 }
-#Mainpage:before {
+#mainpag:before {
   content: "";
   position: absolute;
   left: 0;
@@ -163,11 +163,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
-#Mainpage .block {
+#mainpag .block {
   color: #E3E3E4;
   text-align: center;
 }
-#Mainpage .block h1 {
+#mainpag .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 51px;
@@ -176,14 +176,14 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
   font-weight: bold;
 }
-#Mainpage .block h2 {
+#mainpag .block h2 {
   font-size: 40px;
   font-weight: 400;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   }
-#Mainpage .block p {
+#mainpag .block p {
   font-size: 26px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
