@@ -55,7 +55,7 @@
   padding: 10px;
   margin: auto;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-  text-align: center;
+  text-align: right;
   border-radius: 4px;
   background: white;
   box-shadow: 0 1px 8px rgba(0,0,0,0.05);
@@ -74,8 +74,7 @@
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
 }
-#menu .block li a:hover,
-li a:focus {
+#menu .block li a:focus {
   background: #1ABC9C;
   color: #fff;
 }
