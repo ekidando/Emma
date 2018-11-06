@@ -1,0 +1,45 @@
+/* Main menu settings */
+ .sidenav {
+    height: 55%;
+    width: 0;
+    
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #54608e;
+    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba($black,0.4);
+    
+    
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ededed;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #919191;
+    background-color: #232e56;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    
+    
+    
+}
+ 
