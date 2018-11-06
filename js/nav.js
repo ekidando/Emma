@@ -1,4 +1,3 @@
-<script>
       var theToggle = document.getElementById('toggle');
 
 // based on Todd Motto functions
@@ -41,5 +40,5 @@ theToggle.onclick = function() {
    toggleClass(this, 'on');
    return false;
 }
-    </script>
+
       
