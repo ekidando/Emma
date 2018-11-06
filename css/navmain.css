@@ -74,6 +74,14 @@
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
 }
+
+#menu .block li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+
 #menu .block li a:hover {
   background: #1ABC9C;
   color: #fff;
