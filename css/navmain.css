@@ -1,45 +1,104 @@
-/* Main menu settings */
- .sidenav {
-    height: 55%;
-    width: 0;
-    
-    position: absolute;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    background-color: #54608e;
-    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
-    transition: 0.5s;
-    padding-top: 60px;
-    border-radius: 10px;
-    box-shadow: 0 12px 24px rgba($black,0.4);
-    
-    
-}
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ededed;
-    display: block;
-    transition: 0.3s;
-}
-.sidenav a:hover {
-    color: #919191;
-    background-color: #232e56;
-}
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-    
-    
-    
-}
- 
+/* Header */
+
+	#header {
+		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
+		background: _palette(bg);
+		height: 3em;
+		left: 0;
+		line-height: 3em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: _misc(z-index-base);
+
+		h1 {
+			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			position: absolute;
+			top: 0;
+
+			a {
+				border: 0;
+				display: block;
+				height: inherit;
+				line-height: inherit;
+
+				@include breakpoint(small) {
+					font-size: 0.8em;
+				}
+			}
+		}
+
+		nav {
+			height: inherit;
+			line-height: inherit;
+			position: absolute;
+			right: 0;
+			top: 0;
+
+			> ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				white-space: nowrap;
+
+				> li {
+					display: inline-block;
+					padding: 0;
+
+					> a {
+						border: 0;
+						color: _palette(fg-bold);
+						display: block;
+						font-size: 0.8em;
+						letter-spacing: _size(letter-spacing-alt);
+						padding: 0 1.5em;
+						text-transform: uppercase;
+
+						&.menuToggle {
+							outline: 0;
+							position: relative;
+
+							&:after {
+								background-image: url('images/bars.svg');
+								background-position: right center;
+								background-repeat: no-repeat;
+								content: '';
+								display: inline-block;
+								height: 3.75em;
+								vertical-align: top;
+								width: 2em;
+							}
+
+							@include breakpoint(small) {
+								padding: 0 1.5em;
+
+								span {
+									display: none;
+								}
+							}
+						}
+
+						@include breakpoint(small) {
+							padding: 0 0 0 1.5em;
+						}
+					}
+
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+
+		&.alt {
+			background: transparent;
+
+			h1 {
+				@include vendor('pointer-events', 'none');
+				opacity: 0;
+			}
+		}
+	}
