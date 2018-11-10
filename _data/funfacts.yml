@@ -1,12 +1,12 @@
 - counter: 4
   image: img/slide_show/slide_4.jpg
-  text: Traffic Operation Projects
+  text: Traffic Operations
 - counter: 3
   image: img/slide_show/slide_3.jpg
   text: Highway Safety
 - counter: 3
   icon: ion-ios-compose-outline
-  text:  Data Collection and Analytics
+  text:  Data Collection & Analytics
 - counter: 10
   icon: ion-ios-timer-outline
   text: Total Reserch Projects
