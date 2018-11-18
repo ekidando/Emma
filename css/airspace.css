@@ -128,6 +128,19 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
+#resercpro .block ul {
+  padding-top: 20px;
+  font-size: 23px;
+  color: #383737;
+}
+
+#resercpro .block li {
+  
+  font-size: 23px;
+  color: #383737;
+}
+
+
 #resercpro .block img {
   padding-left: 40px;
  
