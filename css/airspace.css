@@ -467,6 +467,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .block p {
   padding-top: 50px;
   color: #7B7B7B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 31px;
 }
 #testimonial .counter-box li {
   width: 50%;
