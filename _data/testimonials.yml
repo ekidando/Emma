@@ -2,9 +2,11 @@
   image: img/slide_show/slide_4.jpg
 - name: Breakdown Probability vs Traffic Flow
   image: img/slide_show/slide_3.jpg
+- name: Congestion Probability vs Lane Lateral Locations
+  image: img/slide_show/cong_lane.jpg
 - name: Bayesian Data Analystics
   image: img/slide_show/slide_6.jpg
-- name: Dirichlet Random effect Model
+- name: Dirichlet Random Effect Model
   image: img/slide_show/slide_2.jpg
 - name: Graphical Model - Bayesian Networks
   image: img/slide_show/slide_1.jpg
