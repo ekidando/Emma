@@ -1,21 +1,52 @@
----
-layout: page
-title: Software Development
-permalink: /software/
-published: true
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <title>Software</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <!-- CSS -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/airspace.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/syntax.css" />
+  <link rel="stylesheet" href="css/reserc.css" />
+  <link rel="stylesheet" href="css/navmain.scss" />
+  
+  <body>
+    <!-- Header Start -->
+<!-- Header Start -->
+<ul  class="sidenav">
+    <!--<a> MENU </a>-->
+    <!--<a> MENU </a>-->
+    <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+    <li><a href="aboutme.html">About me</a></li>
+    <li><a href="research.html" >Research projects</a></li>
+    <li><a href="academic.html" >Academic</a></li>
+    <li><a href="publications.html" >Publications</a></li>
+    <li><a href="software.html" class="selected">Software</a>
+    <li><a href="datavisua.html">Data Visualization</a></li>
+    <li><a href="miscellaneous.html" >Miscellaneous</a></li>
+    <li><a href="contact.html" >Contact</a></li>
 
+</ul><!-- header close -->
 <section id="global-header">
   <div class="container">
     <div class="row">
         <div class="block">
 	
           <h1 class="animated fadeInUp">Software Development </h1>
-          <hr style="height:5px; border:none; color:#e2e2e2; background-color:#e2e2e2;">
-         <p class="animated fadeInUp"> Traffic Operations, Data Collection, and Connected Vehicle Data Analytics</p>
-          
-          
+   
         </div>
       </div>
     </div>
@@ -33,9 +64,23 @@ published: true
           
           <br> <br>-->
           <h1>Operational Analysis - HCM 2016</h1>
-          <br> <br>
+          <br>
+          <p style="line-height: 45px;"> A tool created below allows to conduct traffic operations analysis 
+            for three highway facilities: Basic freeway segment (Operations and Planning), multilane, and two-lane
+             highway (Bicycle). The analysis of these facilities were implemented following the procedure recommended in the
+              Higway Capacity Manual (HCM - 2016). Other type of facilities, such as merge, weaving, roundabout, traffic 
+              signal, etc.
+              are under development. In addition, I will be extending these applications to have an automated report
+              generation <i>(.pdf)</i> to summarize the result of analysis. Use the the link below under
+               "LEARN MORE" to test the app.
+            </p>
+            <p> <b>Methods:</b> Data Analysis (Python) and
+              Visualization (Dash/Plotly)
+            </p>
+          <br>
+          <br> 
          <video width="1150" height="450" controls>
-          <source src="{{ site.baseurl }}/img/Video/video_3.mp4" type="video/mp4">
+          <source src="img/Video/video_3.mp4" type="video/mp4">
           </video>
           <br> <br>
           
@@ -53,18 +98,32 @@ published: true
  
 
 <!-- Project 2 -->
-<section id="resercpro">
+<section id="intro" class="selectColorr selectedColortxt">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-      <h1>Trafffic Signal Warrant: Eight-Hour Vehicular Volume (Warrant 1)</h1>
-      </div></div>
+      <div align="center"> 
+      <h1>Trafffic Signal Warrant: Eight-Hour Vehicular <br><br><br> Volume (Warrant 1)</h1>
+      <br><br><br>
+    </div>
+  
+    <p style="line-height: 45px;"> This tool analyzes the signal warrant 1. The Warrant 1, Eight-hour vehicular volume,
+      is one of the 9 warrants that estimates whether there is a need for traffic signal to be installed
+      at an intersection for the purpose of improving traffic safety and operations. These guidelines are provided by 
+      the Manual on Uniform Traffic Control Devices (MUTCD). According to MUTCD, the warrants are threshold conditions 
+      based on the average conditions that help in the process of making decision regarding installing traffic control devices.
+      Use the the link below under "LEARN MORE" to review the tool.
+            </p>
+            <p> <b>Methods:</b> Data Analysis (Python) and
+              Visualization (Dash/Plotly)
+            </p>
+      <br>
        <div class="col-md-12">
         <div class="block">
          <br> <br>
          <video width="1150" height="400" controls>
-          <source src="{{ site.baseurl }}/img/Video/warrant.mp4" type="video/mp4">
+          <source src="img/Video/warrant.mp4" type="video/mp4">
           </video>
            <br> <br>
           
@@ -82,62 +141,31 @@ published: true
 </section>  
 
 
-<!-- Project 2 -->
-<section id="intro" class="selectColorr selectedColortxt">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-      <h1>Visualization of Connected Vehicle Trajectories</h1>
-      </div></div>
-       <div class="col-md-12">
-        <div class="block">
-         <br> <br>
-         <video width="1150" height="400" controls>
-          <source src="{{ site.baseurl }}/img/Video/vide_2.mp4" type="video/mp4">
-          </video>
-          <br><br>
-          
-
-         </div>
-      </div><!-- .col-md-7 close -->
-      </div>
-  </div>
-</section>  
- 
-
-<!--Project 1 -->
-<section id="resercpro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-           <br>         
-          <h1>Real Time Speed Data Collection and Visualization</h1>
-          <br> <br>
-         <video width="1150" height="450" controls>
-          <source src="{{ site.baseurl }}/img/Video/video_5.mp4" type="video/mp4">
-          </video>
-          <br> <br>
-          
-          </div>
-      </div><!-- .col-md-7 close -->
-      </div>
-  </div>
-</section> 
-
    <!-- Contacts -->
-<section id="call-to-action">
-
-    <div class="row">
-      
-    <div class="col-md-12">
-        <div class="block">
-          <h2>Idea, Comments, Questions or Just Want to Chat?</h2>
-
-          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contacts</a>
- 
+   <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+                <h2>Idea, Comments, Questions or Just Want to Chat?</h2>
+                <a class="btn btn-default btn-call-to-action" href="contact.html" ><i class="fa fa-fw fa-envelope"></i>       Contact</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/min/waypoints.min.js"></script>
+<script src="js/jquery.counterup.js"></script>
+
+
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

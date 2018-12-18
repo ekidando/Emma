@@ -2,6 +2,67 @@
 	wrapper Start
 --*/
 
+/* Main menu settings */
+ul.sidenav {
+  z-index: 1000;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  }
+
+ul.sidenav li a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 11%;
+  height: 7%;
+ }
+
+/* Style the active class, and buttons on mouse-over */
+ul.sidenav li a:hover,
+ ul.sidenav li.active,
+  ul.sidenav li a.selected {
+  color: #ffffff;
+  background-color: #1f6154;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 400px) {
+ 
+  ul.sidenav li a {
+    float: none;
+    text-align: center;
+      }
+  }
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+  }
+
+
 .paColorr{
     background-color: #5c5c5e;
 }
@@ -24,6 +85,7 @@
 #introresear .block h2 {
   padding-top: 35px;
   line-height: 27px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -39,7 +101,8 @@
 }
 #introresear .block p {
   padding-top: 20px;
-  font-size: 23px;
+  font-size: 21px;
+  line-height: 26px;
 }
 #introresear .block li {
   padding-top: 20px;
@@ -52,10 +115,7 @@
 }
 
 
-#introresear .block img {
-  padding-left: 40px;
-  width: 100%;
-}
+
 #introresear .section-title {
   margin-bottom: 0px;
 }
@@ -66,4 +126,62 @@
 #introresear .block ul {
   padding-top: 20px;
   font-size: 23px;
+}
+
+
+
+#eduction-interests {
+  background: url("../img/1.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background-attachment: fixed;
+}
+#eduction-interests:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#eduction-interests .block {
+  margin: 0 auto;
+  padding: 0px 0px;
+  
+}
+#eduction-interests .block h1 {
+  font-size: 80px;
+  letter-spacing: 0.1px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#eduction-interests .block h2 {
+  padding-bottom: 25px;
+  padding-top: 15px;
+  line-height: 27px;
+  margin: 0;
+  font-size: 60px
+}
+#eduction-interests .block p {
+  font-size: 35px;
+  word-spacing: 0.5px;
+  color: white;
+  line-height: 46px;
+}
+
+#eduction-interests .block li {
+  word-spacing: 0.5px;
+  color: white;
+  line-height: 46px;
+}
+#eduction-interests .block a {
+  color: #459b88;
+ 
 }

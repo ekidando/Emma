@@ -1,9 +1,45 @@
----
-layout: page
-title: Research
-permalink: /research/
-published: true
----
+<!DOCTYPE html>
+<html lang="en">
+
+  <title>Research</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/airspace.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/syntax.css" />
+  <link rel="stylesheet" href="css/reserc.css" />
+  <link rel="stylesheet" href="css/navmain.scss" />
+  
+  <body>
+    <!-- Header Start -->
+<!-- Header Start -->
+<ul  class="sidenav">
+    <!--<a> MENU </a>-->
+    <!--<a> MENU </a>-->
+    <li><a href="index.html" ><i class="fa fa-fw fa-home"></i>Home</a></li>
+    <li><a href="aboutme.html">About me</a></li>
+    <li><a href="research.html" class="selected">Research</a></li>
+    <li><a href="academic.html" >Academic</a></li>
+    <li><a href="publications.html" >Publications</a></li>
+    <li><a href="software.html">Software</a>
+    <li><a href="datavisua.html">Data Visualization</a></li>
+    <li><a href="miscellaneous.html" >Miscellaneous</a></li>
+    <li><a href="contact.html" >Contact</a></li>
+     
+</ul><!-- header close -->
+
 
     <!-- Slider Start -->
 <section id="global-header">
@@ -12,9 +48,7 @@ published: true
             <div class="col-md-12">
                 <div class="block">
                     <h1>Research Projects</h1>
-                   <hr style="height:5px; border:none; color:#e2e2e2; background-color:#e2e2e2;">
-                    <p class="animated fadeInUp"> Traffic Operations, Safety, Data Collection and Modeling.</p>
-                </div>
+                 </div>
             </div>
         </div>
     </div>
@@ -24,21 +58,29 @@ published: true
 <section id="testimonial">
   <div class="container">
     <div class="row">
-      <div class="section-title text-center">
-        <h2>Research Projects Summary</h2>
-    </div>
+     
+      <h2 style="padding-top: 35px;
+      line-height: 27px;
+      font-size: 60px;
+      margin: 0;color: #7B7B7B
+      ">Research Projects Summary</h2>
+  
     
       <div class="col-md-6">
         <div class="block">
          <p>My research experience can be broadly summarized into three major groups; traffic operations, safety, and data collection & modeling. Out of ten projects, four were related to traffic operations, three to highway safety and three to data collection and modeling. Results of these projects have been published to journals or conferences such as Transportation Research Board Annual meetings, IEEE Intelligent Transportation Systems, Journal of Transportation Engineering, Part A: Systems, and Journal of Accident Analysis and Prevention among others. </p>
           <div align="center">
-          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/publications">SEE MY PUBLICATIONS</a>
+          <a style="font-size: 20px; color: ;
+          background-color: transparent;
+          border-color:#1f6154"
+          class="btn btn-default btn-call-to-action" href="publications.html">See my Publications</a>
             </div>
           </div>
         </div>
  
 
       <div class="col-md-5">
+        <br><br>
         {% if site.data.funfacts.size > 0 %}
         <div class="block">
           {% for ff in site.data.funfacts %}
@@ -79,8 +121,8 @@ published: true
                 <ul id="portfolio-contant-active">
                
                   <li class="mix TSMO">
-                    <a href="{{ site.baseurl }}/TSMO">
-                      <img src="{{ site.baseurl }}/img/portfolio/congestion_2.jpg" alt="">
+                    <a href="TSMO.html" >
+                      <img src="img/portfolio/congestion_2.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
                           <h2>Traffic Operations</h2>
@@ -93,8 +135,8 @@ published: true
                     </a>
                   </li>
                   <li class="mix Safety">
-                    <a href="{{ site.baseurl }}/safety">
-                      <img src="{{ site.baseurl }}/img/portfolio/safety.jpg" alt="">
+                    <a href="safety.html">
+                      <img src="img/portfolio/safety.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
                           <h2>Highway Safety</h2>
@@ -108,8 +150,8 @@ published: true
                     </a>
                   </li>
                   <li class="mix Analy">
-                    <a href="{{ site.baseurl }}/analytics">
-                      <img src="{{ site.baseurl }}/img/portfolio/dataanalytics_2.jpg" alt="">
+                    <a href="analytics.html">
+                      <img src="img/portfolio/dataanalytics_2.jpg" alt="">
                       <div class="overly">
                         <div class="position-center">
                           <h2>Data Collection and Analytics</h2>
@@ -137,10 +179,25 @@ published: true
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Idea, Comments, Questions or Just Want to Chat?</h2>          
-          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contacts</a>
+              
+          <a class="btn btn-default btn-call-to-action" href="contact.html" >Contacts</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/min/waypoints.min.js"></script>
+<script src="js/jquery.counterup.js"></script>
+
+
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

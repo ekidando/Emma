@@ -112,7 +112,7 @@ function initAnimation() {
 }
 
 
-d3.csv('data/ConnectedVehicle_D3.csv', function(err, data) {
+d3.csv('../data/ConnectedVehicle_D3.csv', function(err, data) {
   initializeData(data);
   initProjection();
   projectPoints();
