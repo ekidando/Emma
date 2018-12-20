@@ -7,6 +7,15 @@ body {
 	color: #000000;
 
 }
+
+.animbody {
+  color:rgb(255, 255, 255); 
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
 h1,
 h2,
 h3,
@@ -20,7 +29,6 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
   font-weight: 300;
 }
 p {
@@ -230,7 +238,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 350px;
 }
 #slider .block h3 {
-  font-size: 40px;
+  font-size: 42px;
   padding-bottom: 20px;
   letter-spacing: 1px;
   }
@@ -630,7 +638,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .block p {
   padding-top: 50px;
   color: #7B7B7B;
-  font-size: 18px;
+  font-size: px;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -773,7 +781,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 0px 25px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 23px;
   line-height: 40px;
   font-weight: 600;
   color: #333333;

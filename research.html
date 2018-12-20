@@ -66,37 +66,31 @@
       ">Research Projects Summary</h2>
   
     
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="block">
-         <p>My research experience can be broadly summarized into three major groups; traffic operations, safety, and data collection & modeling. Out of ten projects, four were related to traffic operations, three to highway safety and three to data collection and modeling. Results of these projects have been published to journals or conferences such as Transportation Research Board Annual meetings, IEEE Intelligent Transportation Systems, Journal of Transportation Engineering, Part A: Systems, and Journal of Accident Analysis and Prevention among others. </p>
+         <p  style="font-size: 23px;">My research experience can
+           be broadly summarized into three major groups; traffic 
+           operations, safety, and data collection & modeling.
+            Out of ten projects, four were related to traffic operations,
+             three to highway safety and three to data collection
+              and modeling. Results of these projects have been 
+              published to journals or conferences such as 
+              Transportation Research Board Annual meetings,
+               IEEE Intelligent Transportation Systems,
+                Journal of Transportation Engineering, Part A: Systems, 
+                and Journal of Accident Analysis & Prevention,
+                 among others. </p>
           <div align="center">
-          <a style="font-size: 20px; color: ;
+          <a style="font-size: 23px; color: #1f6154;
           background-color: transparent;
           border-color:#1f6154"
-          class="btn btn-default btn-call-to-action" href="publications.html">See my Publications</a>
+          class="btn btn-warning" href="publications.html">See my Publications</a>
             </div>
           </div>
         </div>
  
 
-      <div class="col-md-5">
-        <br><br>
-        {% if site.data.funfacts.size > 0 %}
-        <div class="block">
-          {% for ff in site.data.funfacts %}
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="{{ ff.image }}"></i>
-                <h4 class="counter">{{ ff.counter }}</h4>
-                <span>{{ ff.text }}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      </div>
+      
       </div>
          </div>
 </section>

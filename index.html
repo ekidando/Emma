@@ -47,11 +47,10 @@
     <div class="row">
         
         <div class="block">
-          <h1 class="animated fadeInUp">Emmanuel Kidando</h1>
-
-          <h3 class="animated fadeInUp">PhD Candidate and Researcher at Florida State University</h3>
-          <h3 class="animated fadeInUp"> Intelligent Transportation System  and Data Analytics</h3>
-            <h3 class="animated fadeInUp">Civil and Transportation Engineer</h3>
+          <h1 class="animbody">Emmanuel Kidando</h1>
+         
+          <h3 class="animbody">PhD Candidate and Researcher at Florida State University</h3>
+            <div class="animbody" id="app"></div>
            <p></p>
       </div>
     </div>
@@ -106,6 +105,7 @@
 <script src="js/plugins.js"></script>
 <script src="js/min/waypoints.min.js"></script>
 <script src="js/jquery.counterup.js"></script>
+<script src="js/core.js"></script>
 <script>
   // Add active class to the current button (highlight it)
   var $a = $('#menu a').click(function() {
@@ -114,7 +114,19 @@
 });
   </script>
   
+  <script>
 
+    var app = document.getElementById('app');
+
+    var typewriter = new Typewriter(app, {
+        loop: true
+    });
+    
+    typewriter.typeString('Intelligent Transportation Systems, Data Analytics & Visualization')
+        .pauseFor(822500)
+        .start();
+
+</script>
 <script src="js/main.js"></script>
 <script src="js/nav.js"></script>
 </body>
