@@ -22,11 +22,9 @@ h1 {
 
 
   #cover {
-<<<<<<< HEAD
-    /*--background: url("img/architecture-black-and-white-buildings-295816.jpg") no-repeat; --*/
-=======
->>>>>>> 4cee8c51c1a5134663410c1c3ea67bcc76e35fe8
-    background: url("../img/architecture-black-and-white-buildings-295816.jpg") no-repeat;
+
+   background: url("img/architecture-black-and-white-buildings-295816.jpg") no-repeat;
+   /*--background: url("../img/architecture-black-and-white-buildings-295816.jpg") no-repeat; --*/
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
