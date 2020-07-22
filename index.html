@@ -182,7 +182,14 @@
 <script>
     function counter_fn() {
       var counter = document.getElementById("cntr");
-      var count = 0;
+      var count = localStorage.getItem('on_load_counter');
+      if (count ==null){
+        count = 0;
+      }
+      count++;
+      
+      localStorage.setItem("on_load_counter", count);
+      
       count = parseInt(counter.innerHTML);
       count = count + 1;
       counter.innerHTML = count;
