@@ -169,6 +169,7 @@
              
             <a class="btn btn-default btn-call-to-action" 
             href="contact.html" ><i class="fa fa-fw fa-envelope"></i>       Contact</a>
+           <p>The number of visitors is : <span id="cntr">0</span> views</p>
           <br><br><br><br><br><br><br><br><br><br><br>
           </div>
         </div>
@@ -176,5 +177,17 @@
     </div>
 </section>
 
+    
+<script>
+    function counter_fn() {
+      var counter = document.getElementById("cntr");
+      var count = 0;
+      count = parseInt(counter.innerHTML);
+      count = count + 1;
+      counter.innerHTML = count;
+    }
+    window.onload = counter_fn;
+  </script>
+    
 </body>
 </html>
