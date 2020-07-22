@@ -171,7 +171,7 @@
             href="contact.html" ><i class="fa fa-fw fa-envelope"></i>       Contact</a>
               <br><br>
            <p> <span id="cntr">0</span> views</p>
-          <br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br>
           </div>
         </div>
       </div>
@@ -183,13 +183,14 @@
     function counter_fn() {
       var counter = document.getElementById("cntr");
       var count = localStorage.getItem('on_load_counter');
-      if (count ==null){
+      if (count == null){
         count = 0;
       }
+      
       count++;
       
       localStorage.setItem("on_load_counter", count);
- 
+      
       counter.innerHTML = count;
     }
     window.onload = counter_fn;
