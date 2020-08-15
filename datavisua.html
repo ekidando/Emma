@@ -70,6 +70,9 @@
 <li> TTR performance metrics based on the measure of variations (coefficient of variation) and index-based measures (buffer index, planning time index, and misery index) were used in the analysis. </li>   
 <li> The stochastic model proposed is based on Bayesian addictive regression, which its parameters are specified as distributions.</li> 
 <li> Travel time data of a 3.3-mile corridor on Mayport highway in Jacksonville, Florida was used as the case study. </li> 
+         
+         <p> <b>Methods:</b> Data Analysis (Python, Pymc3)
+                </p>
 <br> 
      <div class="col-md-12">
          <img width="900" height="400"src="Blog/img/ttr.png" alt="Img">
@@ -78,7 +81,7 @@
                   
                   
       <a class="animated fadeInUp" href="Blog/TrafficFlow.html" role="button" style="font-size:30px">
-       Multi-Regimes Fundamental Diagram – New Calibration Approach</a>
+       <center> Multi-Regimes Fundamental Diagram – New Calibration Approach </center></a>
       
       <p style="line-height: 45px;"> July, 2020</p>
       <li> For almost a century, several models have been developed to calibrate the pairwise relationship among traffic flow variables, i.e., speed, density, and flow. </li>
@@ -86,6 +89,9 @@
 <li> However, in modeling multi-regimes models, breakpoints separating the regimes are generally estimated by a model developer based on the subjective judgment of visual data characteristics.</li> 
 <li> A new calibration approach based on Bayesian inference is introduced for fitting the multi-regimes models. </li>   
 <li> The superiority of the new calibration approach is the ability to locate the breakpoints in the multi-regime considering the specific data characteristics. </li> 
+         
+         <p> <b>Methods:</b> Data Analysis (Python, Numpyro)
+                </p>
 <br> 
      <div class="col-md-12">
          <img width="900" height="950"src="Blog/img/TrafficFlow1.png" alt="Img">
@@ -94,13 +100,16 @@
         
                   
         <a class="animated fadeInUp" href="Blog/Lane_document.html" role="button" style="font-size:30px">
-       Bayesian Random Coefficient Models in Modeling Traffic Congestion</a>
+      <center> Bayesian Random Coefficient Models in Modeling Traffic Congestion </center></a>
                   
       <p style="line-height: 45px;"> June, 2020</p> 
       <li> Analytical models developed using field traffic data can be utilized with acceptable confidence to reliably represent, predict, and evaluate the operational characteristics of the highway systems. </li>
 <li>  Establishing a model to estimate the stochastic evolution of traffic conditions is important for prediction and developing effective solution to address roadway congestion.</li> 
 <li> Using a freeway segment of I-295 located in Jacksonville, Florida as a case study, an advanced statistical method developed in the Bayesian modeling framework was developed to account for the day of the week and lane lateral location disparities effect in influencing the dynamic evolution characteristics of traffic regimes.</li> 
 <li> Specifically, this study applied the Markov Chain theory and random coefficients logistic regression model in the analysis. </li>
+         
+         <p> <b>Methods:</b> Data Analysis (Python, Pymc3)
+                </p>
       <br> 
       
      <div class="col-md-12">
@@ -110,18 +119,34 @@
                   
                   
        <a class="animated fadeInUp" href="Blog/GMMRegression.html" role="button" style="font-size:30px">
-        Bayesian Mixture of Gaussian Model With Varying Mixing Proportions</a>
+        <center>Bayesian Mixture of Gaussian Model With Varying Mixing Proportions </center></a>
       <br>  
       <p style="line-height: 45px;"> May, 2020</p>
+         
+       <li>  Mixture models belong to a family of semi-parametric model that are flexible in fitting data with heterogeneous characteristics. </li>
+         <li> The Gaussian mixture model is used to demonstrate its uses in clustering traffic congestion using data collected from a freeway.</li>
+         <li> I will be incorporating a regression model with the explanatory variable in the components’ proportions. </li>
+         <li> More specifically, the mixture-component weights are fitted with traffic occupancy to increase flexibility of the model. This model can also be referred to as the mixture models with varying mixing proportions.</li>
+         
+         <p> <b>Methods:</b> Data Analysis (Julia, Turing)
+                </p>
+         
      <div class="col-md-12">
          <img width="900" height="450"src="Blog/img/mixture_regre.JPG" alt="Img">
         <br><br>
             </div> 
                   
       <a class="animated fadeInUp" href="Blog/GMM.html" role="button" style="font-size:30px">
-        A Gaussian Mixture Model for Clustering Traffic Congestion - Bayesian Modeling with Turing.jl</a>
+       <center> A Gaussian Mixture Model for Clustering Traffic Congestion - Bayesian Modeling with Turing.jl </center></a>
       <br>  
       <p style="line-height: 45px;"> April, 2020</p>
+         
+        <li>  A cluster analysis based on the Gaussian mixture algorthm is presented for estimating two components of travel speed distribution.</li>
+         <li> These two components can be referred to as the slow moving component, congested regime and high speed component, free-flow regime. </li>
+         
+         <p> <b>Methods:</b> Data Analysis (Julia, Turing)
+                </p>
+         
      <div class="col-md-12">
          <img width="900" height="650"src="Blog/img/mixture_dist.JPG" alt="Img">
         <br><br>
